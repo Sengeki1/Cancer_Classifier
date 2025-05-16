@@ -24,4 +24,4 @@ Make sure you have Python `3.10.0` installed. You can use `pyenv`, `conda`, or `
 
 ## Results
 
-Using **KMeans clustering**, we achieved an accuracy of `83%`, which demonstrates a solid initial grouping of the data. However, when applying a **supervised learning** approach with a **Decision Tree classifier**, the accuracy improved significantly to `93.5%`. This marked increase highlights the effectiveness of using labeled data for classification in this context. Overall, the results are very promising and indicate that the **Decision Tree** model is well-suited for this task.
+Using **KMeans clustering**, we achieved an accuracy of `83%`, which demonstrates a solid initial grouping of the data. However, when applying a **supervised learning** approach with a **Decision Tree classifier**, the accuracy improved significantly to `86.5%`. This marked increase highlights the effectiveness of using labeled data for classification in this context. Overall, the results are very promising and indicate that the **Decision Tree** model is well-suited for this task.
