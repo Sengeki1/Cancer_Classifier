@@ -70,6 +70,6 @@ accuracy = max(acc_1, acc_2)
 print("Clusters match with the target class: ", f"{accuracy * 100}%")
 
 # DecisionTreeClassifier
-classifier = Classifier(data.data, target_class)
+classifier = Classifier(df[['mean radius', 'mean texture']], target_class)
 classifier.train()
 print("DecisionTreeClassifier match with the target class: ", f"{classifier.predict() * 100}%")
